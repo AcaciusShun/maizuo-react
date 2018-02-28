@@ -1,7 +1,7 @@
-import todoReducer from './todoreducer'
+// import todoReducer from './todoreducer'
 
 export default{
     //  key:value
-    todo_list:todoReducer
+    // todo_list:todoReducer
     // films:filmsReducer
 }
