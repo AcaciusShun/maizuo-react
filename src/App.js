@@ -9,6 +9,9 @@ import Orders from "./components/Orders.js";
 import Detail from "./components/Detail";
 import TodoList from "./components/TodoList";
 
+import './App.scss'; 
+
+
 class App extends Component {
   render() {
     return (
