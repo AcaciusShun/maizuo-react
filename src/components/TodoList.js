@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {connect} from "react-redux";
+import { Button } from 'antd';
 
 class TodoUI extends Component {
     render() {
@@ -8,7 +9,7 @@ class TodoUI extends Component {
                 <input type="text" ref="ipt" />
                 
                 {/* 只要一有值（传参数）前必有（） 即函数 */}
-                <button onClick={()=>this.props.addTodo(this.refs.ipt.value)}>添加</button>
+                <Button onClick={()=>this.props.addTodo(this.refs.ipt.value)}>添加</Button>
 
                 <ul>
                     {/* 在这里取用 */}
