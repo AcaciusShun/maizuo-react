@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "babel-plugin-import": "^1.6.5",
     "react": "^16.2.0",
+    "react-app-rewired": "^1.4.1",
     "react-dom": "^16.2.0",
     "react-redux": "^5.0.7",
     "react-router": "^4.2.0",
