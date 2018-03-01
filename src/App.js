@@ -1,16 +1,20 @@
 import React, { Component } from 'react';
-import './App.scss'; 
-import { Button } from 'antd';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import "./styles/reset.css";
+import Home from "./components/Home/Home";
 
-
-class App extends Component {
-  render() {
-    return (
-	      <div>
-	      	<Button type="primary">按钮</Button>
-	      </div>
-    );
-  }
+  
+  class App extends Component {
+ render() {
+      return (
+          <Router>
+            <div className= "App" >
+              <Route exact path = "/" component = { Home } />
+              <Route path="/movie" component = { Home } />
+            </div >
+          </Router >
+        );
+    }
 }
 
-export default App;
+  export default App;
