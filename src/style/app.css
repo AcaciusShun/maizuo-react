@@ -1,0 +1,115 @@
+@import "./font/iconfont.css";
+
+.App{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+header{
+	width: 100%;
+	height: 0.7rem;
+	display: flex;
+	background:#282828;
+	color: #fff;
+	line-height: 0.7rem;
+	justify-content: space-between;
+}
+header div{
+	height: 100%;
+	display: flex;
+}
+header .iconfont{
+	color: #9a9a9a;
+	width: 0.7rem;
+	height: 100%;
+	text-align: center;
+	font-size: 16px;
+	border-right: 1px solid #222;
+	box-shadow: 1px 0 1px #363636;
+}
+header .address{
+	font-size: 15px;
+	color: #999;
+}
+header .address .iconfont{
+	color: #fff;
+}
+header .address .me{
+	padding: 0 0.1rem;
+	font-size: 20px;
+}
+header ul{
+	position:fixed;
+	top: 0.7rem;
+	border-top: 1px solid #222;
+    box-shadow: 0 1px 1px #363636 inset;
+    background: #282828;
+    bottom: 0;
+    width: 4.5rem;
+    left: 0;
+    z-index: 9999;
+}
+header .bg{
+	position: fixed;
+	top: 0.7rem;
+	left: 0; 
+	right: 0;
+	bottom: 0;
+	background: #000;
+	opacity: 0.5;
+	z-index: 100;
+}
+.nav-enter {
+  left: -4.5rem;
+}
+
+.nav-enter.nav-enter-active {
+  left: 0px;
+  transition: all 800ms ease-in;
+}
+
+.nav-leave {
+  left: 0px;
+}
+
+.nav-leave.nav-leave-active {
+  left: -4.5rem;
+  transition: all 800ms ease-in;
+}
+.bg-enter {
+  opacity: 0;
+}
+
+.bg-enter.bg-enter-active {
+  opacity: 0.5;
+  transition: opacity 500ms ease-in;
+}
+
+.bg-leave {
+  opacity: 0.5;
+}
+
+.bg-leave.bg-leave-active {
+  opacity: 0;
+  transition: opacity 300ms ease-in;
+}
+header ul li a{
+	box-sizing: border-box;
+	display: block;
+    width: 100%;
+    padding: 0 0.32rem;
+    border-bottom: 1px dotted #333;
+    color: #9a9a9a;
+    font-size: 14px;
+    line-height: 1rem;
+}
+header ul li a span{
+	display: block;
+	float: right;
+	font-size: 20px;
+}
+footer{
+	flex: 1;
+	overflow-y: auto;
+}

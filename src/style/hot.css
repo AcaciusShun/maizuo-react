@@ -1,0 +1,54 @@
+.playing,ul,li{
+	width: 100%;
+}
+.playing li a{
+	width: 100%;
+    padding: 0.4rem 0;
+    border-bottom: dashed 1px #c9c9c9;
+    color: #8e8e8e;
+    display: block;
+}
+.playing li a img{
+	width: 1.2rem;
+	height: 1.6rem;
+	vertical-align: top;
+}
+.playing li a>div{
+	width: 4rem;
+	display: inline-block;
+	height: 1.6rem;
+	padding-left: 0.3rem;
+	vertical-align: top;
+}
+.playing li a>div div{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+.playing li a>div div:nth-of-type(1) h6{
+	font-size: 16px;
+    line-height: 0.6rem;
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.playing li a>div div:nth-of-type(1) p{
+	font-size: 16px;
+    line-height: 0.6rem;
+    color: #fc7103;
+}
+.playing li a>div div:nth-of-type(2){
+	height: 0.48rem;
+	color: #8e8e8e;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    line-height: 0.48rem;
+} 
+.playing li a>div div:nth-of-type(3){
+	line-height: 0.48rem;
+    font-size: 12px;
+}

@@ -1,0 +1,47 @@
+.coming,ul,li{
+	width: 100%;
+}
+.coming li a{
+	width: 100%;
+    padding: 0.4rem 0;
+    border-bottom: dashed 1px #c9c9c9;
+    color: #8e8e8e;
+    display: block;
+}
+.coming li a img{
+	width: 1.2rem;
+	height: 1.6rem;
+	vertical-align: top;
+}
+.coming li a>div{
+	display: inline-block;
+	height: 1.6rem;
+	padding-left: 0.3rem;
+}
+.coming li h6{
+	font-size: 16px;
+    line-height: 32px;
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.coming li p{
+	height: 0.48rem;
+	line-height: 0.48rem;
+	color: #8e8e8e;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+.coming li div div{
+	line-height: 24px;
+    color: #ffb375;
+    font-size: 12px;
+}
+.coming li div div span:first-of-type{
+	display: inline-block;
+	width: 2rem;
+}

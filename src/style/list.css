@@ -1,0 +1,26 @@
+.list{
+	width: 100%;
+	box-sizing: border-box;
+	padding:0 0.3rem;
+	background: #fff;
+	min-height: 100%;
+}
+.list .lnav{
+	height:0.9rem; 
+	border-bottom: 1px solid #fe6e00;
+}
+.list .lnav a{
+	display: inline-block;
+	width: 50%;
+    height: 100%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 46px;
+    color: #6a6a6a;
+    box-sizing: border-box;
+    border-bottom: 4px solid transparent;
+}
+.list .lnav .active{
+	color: #fe6e00;
+	border-bottom-color: #fe6e00;
+}
